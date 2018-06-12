@@ -14,5 +14,13 @@ public class HelloAction extends ActionSupport {
         return SUCCESS;
     }
 
+    public String getText() {
+        return userService.toString();
+    }
+
+    public String getId() {
+        return this.toString();
+    }
+
 
 }

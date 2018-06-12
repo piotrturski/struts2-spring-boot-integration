@@ -7,7 +7,8 @@
 </head>
 <body>
 <h2>
-    Hello2!!!
+    Hello2!!!: <s:property value="%{text}"/> </br>
+    <s:property value="%{id}"/>
 </h2>
 </body>
 </html>
